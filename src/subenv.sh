@@ -12,9 +12,9 @@ fi
 
 if [[ $PYTHONPATH != *$ENVS/$1/lib/python*/site-packages* ]]; then
 	echo "Environment '$1' is not added" >&2
-	
+
 	#
-	# Not an error too
+	# Not an error actually
 	#
 	return
 fi
