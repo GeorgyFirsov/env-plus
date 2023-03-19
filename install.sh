@@ -60,6 +60,16 @@ echo "# End environment management section" >> $PROFILE_FILE
 echo "" >> $PROFILE_FILE
 
 #
+# Set permissions
+#
+
+echo "[i] Setting 'execute' permission for added scripts via 'chmod u+x \$ENVPLUS/*.sh'" >&1
+
+chmod u+x $ENVPLUS/*.sh
+
+echo "[+] Permissions are configured"
+
+#
 # Done
 #
 
