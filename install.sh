@@ -67,7 +67,7 @@ echo "[i] Setting 'execute' permission for added scripts via 'chmod u+x \$ENVPLU
 
 chmod u+x $ENVPLUS/*.sh
 
-echo "[+] Permissions are configured"
+echo "[+] Permissions are configured" >&1
 
 #
 # Done
