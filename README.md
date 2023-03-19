@@ -12,5 +12,5 @@ Set of simple scripts, that help to manage python environments:
 
 ### TODO
 
-- Installation script
+- Improve installation script
 - Improve attach/detach mechanism
