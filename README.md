@@ -7,3 +7,10 @@ Set of simple scripts, that help to manage python environments:
 - `runenv env` - activates an environment with name "env"
 - `addenv env` - attaches an environment with name "env" to the current one (makes all packages from "env" visible in the current one)
 - `subenv env` - detches an environment with name "env" from the current one
+
+---
+
+### TODO
+
+- Installation script
+- Improve attach/detach mechanism
