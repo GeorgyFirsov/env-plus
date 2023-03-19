@@ -1,5 +1,10 @@
 #!/bin/zsh
 
+if [ "${BASH_SOURCE-}" = "$0" ]; then
+	echo "You must source this script: \$ source $0" >&2
+	return 1
+fi
+
 if [[ "$VIRTUAL_ENV" == "" ]]; then
 	echo "Not in virtual environment" >&2
 	return 1
