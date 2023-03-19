@@ -1,6 +1,6 @@
 # env-plus
 
-Set of simple scripts, that help to manage python environment:
+Set of simple scripts, that help to manage python environments:
 
 - `mkenv env` - creates an environment with name "env" in `$ENVS` folder
 - `rmenv env` - removes an environment with name "env" from `$ENVS` folder
