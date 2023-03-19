@@ -5,6 +5,11 @@ if [ "${BASH_SOURCE-}" = "$0" ]; then
 	return 1
 fi
 
+if [[ $# -ne 1 ]]; then
+    echo "Wrong number of arguments. Usage: runenv <environment>" >&2
+    return 1
+fi
+
 if [ ! -d $ENVS/$1 ]; then
 	echo "Environment '$1' doesn't exist" >&2
 	return 1

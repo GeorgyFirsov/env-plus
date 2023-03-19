@@ -6,7 +6,7 @@ if [[ "$VIRTUAL_ENV" == "" ]]; then
 fi
 
 if [[ $# -ne 1 ]]; then
-	echo "Wrong number of arguments. Usage: rmenv <environment>" >&2
+	echo "Wrong number of arguments. Usage: addenv <environment>" >&2
 	return 1
 fi
 

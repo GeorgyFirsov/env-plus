@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 if [[ $# -ne 1 ]]; then
-	echo "Wrong number of arguments. Usage: rmenv <environment>" >&2
+	echo "Wrong number of arguments. Usage: mkenv <environment>" >&2
 	return 1
 fi
 
